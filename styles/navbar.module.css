@@ -1,0 +1,125 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  padding: 0px 10px;
+  /* height: 120px; */
+  background-color: transparent;
+  transition: ease 1s;
+}
+
+.nav {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navMenuList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  position: fixed;
+  top: 8vh;
+  width: 60vw;
+  right: -80vw;
+  padding: 10px 16px;
+  background-color: #fff;
+  transition: all 0.2s;
+  align-items: center;
+}
+.navItem {
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navItemActive {
+  color: #0360d9;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navItem:hover {
+  color: #0360d9;
+}
+.navItemActive:hover {
+  color: #0360d9;
+}
+
+.navMenuBar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.navMenuList.activeMenu {
+  right: 0;
+}
+.navSubmenuItem {
+  padding: 15px 30px;
+  color: #fff;
+}
+.navSubmenuItem:hover {
+  background-color: #fff5;
+}
+.navSubmenuItem.submenuActive {
+  color: #0360d9;
+}
+.dropdown {
+  position: relative;
+  width: 100%;
+  float: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navSubmenu {
+  position: relative;
+  background-color: #0f0f0f;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.navSubmenu a {
+  color: #000;
+  padding: 12px 10px;
+  border-bottom: 1px solid #fff5;
+  display: block;
+  transition: all 0.5s ease !important;
+  margin-left: 50px;
+}
+.footerLogo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footerLogo {
+  }
+  .navMenuBar {
+    display: none;
+  }
+  .navItem {
+    color: #000;
+  }
+  .navMenuList {
+    flex-direction: row;
+    gap: 24px;
+    position: unset;
+    min-height: fit-content;
+    width: fit-content;
+    align-items: center;
+    background-color: transparent;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .navSubmenu {
+    position: absolute;
+    min-width: 170px;
+  }
+  .navSubmenu a {
+    margin-left: 0px;
+  }
+}
