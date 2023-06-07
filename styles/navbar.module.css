@@ -96,6 +96,9 @@
 
 @media screen and (min-width: 768px) {
   .footerLogo {
+    display: flex;
+    height: 80px;
+    width: 80px;
   }
   .navMenuBar {
     display: none;

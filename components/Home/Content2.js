@@ -165,7 +165,7 @@ function Content2() {
               Hi,
             </div>
             <div style={{ fontSize: 34, color: "#0360D9" }}>
-              <span style={{ fontSize: 28, color: "#000" }}>I'm</span>{" "}
+              <span style={{ fontSize: 28, color: "#000" }}>I&apos;m</span>{" "}
               Dr.JEYAMURUGAN, <span style={{ fontSize: 16 }}>BHMS </span>
             </div>
             <div
@@ -184,8 +184,8 @@ function Content2() {
             >
               A competent homoeopathic practitioner having a great skill in
               treating patients with all types of cases includes limitations of
-              homoeopathy. Listens to and addresses all of the patients'
-              concerns and clearly explains the course of treatment.
+              homoeopathy. Listens to and addresses all of the patients concerns
+              and clearly explains the course of treatment.
             </div>
           </div>
         </div>

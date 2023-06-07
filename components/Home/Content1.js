@@ -41,9 +41,10 @@ function Content1() {
             </span>
           </div>
           <div style={{ width: "80%", fontSize: 15, color: "#0009" }}>
-            Experience the Gentle Magic of Homeopathy: Empowering Your Body's
-            Inner Healing! and Unleash the power of nature's remedies with
-            homeopathy, a gentle and holistic approach to wellness.
+            Experience the Gentle Magic of Homeopathy: Empowering Your
+            Body&apos;s Inner Healing! and Unleash the power of nature&apos;s
+            remedies with homeopathy, a gentle and holistic approach to
+            wellness.
           </div>
         </div>
         <div className={classNames.contentRight}>
