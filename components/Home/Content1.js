@@ -33,7 +33,7 @@ function Content1() {
           </div>
           <div style={{ fontSize: 34, fontWeight: 500 }}>
             <span style={{ color: "#0360D9", textDecoration: "underline" }}>
-              Homeopathy
+              Homoeopathy
             </span>{" "}
             for all We care for Your{" "}
             <span style={{ color: "#0360D9", textDecoration: "underline" }}>
@@ -41,9 +41,9 @@ function Content1() {
             </span>
           </div>
           <div style={{ width: "80%", fontSize: 15, color: "#0009" }}>
-            Experience the Gentle Magic of Homeopathy: Empowering Your
+            Experience the Gentle Magic of homoeopathy: Empowering Your
             Body&apos;s Inner Healing! and Unleash the power of nature&apos;s
-            remedies with homeopathy, a gentle and holistic approach to
+            remedies with homoeopathy, a gentle and holistic approach to
             wellness.
           </div>
         </div>

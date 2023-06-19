@@ -32,9 +32,8 @@ function ServicesSlider({ swiperRef, setActiveIndex = () => {} }) {
         }}
         breakpoints={{
           320: {
-            slidesPerView: 2,
+            slidesPerView: 1.2,
             spaceBetween: 5,
-            centeredSlides: false,
           },
           600: {
             slidesPerView: 3,

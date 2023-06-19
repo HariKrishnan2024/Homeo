@@ -35,7 +35,7 @@ function ServiceDescSlider({ activeIndex }) {
             textAlign: "start",
           }}
         >
-          {`Homeopathy Approach to treat ${
+          {`Homoeopathy Approach to treat ${
             Object.keys(servicesData)[activeIndex]
           }`}
         </div>

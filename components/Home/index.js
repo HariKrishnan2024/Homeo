@@ -2,6 +2,7 @@ import Content1 from "./Content1";
 import Content2 from "./Content2";
 import Content3 from "./Content3";
 import Content4 from "./Content4";
+import Content5 from "./Content5";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       </div>
       <Content2 />
       <Content3 />
+      <Content5 />
       <Content4 />
     </div>
   );
