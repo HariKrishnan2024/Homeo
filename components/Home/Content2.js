@@ -183,7 +183,7 @@ function Content2() {
             >
               A competent homoeopathic practitioner has great skill in treating
               patients with all types of cases including limitations of
-              homoeopathy. Listens to and addresses all of the patient's
+              homoeopathy. Listens to and addresses all of the patient&apos;s
               concerns and clearly explains the course of treatment.
             </div>
           </div>

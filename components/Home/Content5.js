@@ -71,8 +71,8 @@ function Content5() {
         style={{ fontSize: 15, color: "gray" }}
         className={classNames.content5Desc}
       >
-        From once incurable to triumphantly cured, we've shattered the chains of
-        [disease] and paved the way for a healthier tomorrow!
+        From once incurable to triumphantly cured, we&apos;ve shattered the
+        chains of [disease] and paved the way for a healthier tomorrow!
       </div>
       <div>
         <Swiper
