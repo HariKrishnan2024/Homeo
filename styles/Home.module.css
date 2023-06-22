@@ -52,7 +52,8 @@
   width: 80%;
 }
 .aboutImg {
-  height: 300px;
+  height: 350px;
+  width: 400px;
 }
 .aboutImgContainer {
   width: 50%;
@@ -157,6 +158,9 @@
   width: 60%;
   height: 400px;
 }
+.Content2Desc {
+  margin-top: 70px;
+}
 
 @media only screen and (max-width: 992px) {
   .content1Container {
@@ -184,6 +188,16 @@
     width: 350px;
     left: 20%;
     bottom: -25%;
+  }
+  .aboutImg {
+    height: 350px;
+    width: 300px;
+  }
+  .content2About {
+    width: 90%;
+  }
+  .Content2Desc {
+    margin-top: 0px;
   }
 }
 

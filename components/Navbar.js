@@ -59,7 +59,7 @@ const Navbar = ({ style = {} }) => {
         >
           {NavLinks.map((menu, idx) => (
             <div key={idx}>
-              <NavItem menu={menu} navActive={setNavActive} />
+              <NavItem menu={menu} setNavActive={setNavActive} />
             </div>
           ))}
         </div>

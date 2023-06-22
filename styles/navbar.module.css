@@ -24,7 +24,7 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  right: -100vw;
+  transform: translateX(100%);
   padding: 10px 16px;
   background-color: #fff;
   transition: all 0.2s;
@@ -57,7 +57,7 @@
 }
 
 .navMenuList.activeMenu {
-  right: 0;
+  transform: translateX(-4%);
 }
 .navSubmenuItem {
   padding: 15px 30px;
@@ -113,12 +113,13 @@
     flex-direction: row;
     gap: 24px;
     position: unset;
-    top: 8vh;
+    top: 4vh;
     min-height: fit-content;
     width: fit-content;
     height: 10vh;
     align-items: center;
     background-color: transparent;
+    transform: none;
   }
   .dropdown {
     display: inline-block;

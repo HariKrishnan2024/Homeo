@@ -105,6 +105,7 @@ function Content5() {
                     style={{
                       height: "100%",
                       width: "100%",
+                      objectFit: "contain",
                     }}
                   />
                 </div>

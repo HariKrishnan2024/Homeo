@@ -139,7 +139,7 @@ function Content2() {
                 style={{
                   height: "100%",
                   width: "100%",
-                  borderRadius: "25%",
+                  borderRadius: 10,
                 }}
               />
             </div>
@@ -149,20 +149,11 @@ function Content2() {
               display: "flex",
               flexDirection: "column",
               width: "100%",
-              marginTop: 20,
               marginBottom: 20,
+              paddingLeft: 30,
             }}
+            className={classNames.Content2Desc}
           >
-            <div
-              style={{
-                fontSize: 28,
-                fontWeight: 500,
-                marginBottom: 10,
-              }}
-              className={classNames.aboutHeader}
-            >
-              Hi,
-            </div>
             <div style={{ fontSize: 34, color: "#0360D9" }}>
               <span style={{ fontSize: 28, color: "#000" }}>I&apos;m</span>{" "}
               Dr.JEYAMURUGAN, <span style={{ fontSize: 16 }}>BHMS </span>
