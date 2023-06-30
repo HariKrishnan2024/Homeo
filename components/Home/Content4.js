@@ -121,6 +121,7 @@ function Content4() {
               style={{
                 fontSize: 22,
                 fontWeight: 500,
+                fontFamily: "volkhov",
               }}
             >
               Contact Us
@@ -128,7 +129,14 @@ function Content4() {
                 style={{ borderBottom: "3.5px solid #0360D9", width: 60 }}
               ></div>
             </div>
-            <div style={{ fontSize: 14, color: "#0009", marginBottom: 20 }}>
+            <div
+              style={{
+                fontSize: 12,
+                color: "#0009",
+                marginBottom: 20,
+                fontFamily: "poppins",
+              }}
+            >
               Reach out to us for any inquiry
             </div>
             <form
@@ -271,7 +279,13 @@ function Content4() {
                   style={{ display: "flex", flexDirection: "column", gap: 3 }}
                 >
                   <div style={{ fontSize: 15 }}>{detail.title}</div>
-                  <div style={{ fontSize: 14, color: "#0007" }}>
+                  <div
+                    style={{
+                      fontSize: 12,
+                      color: "#0007",
+                      fontFamily: "poppins",
+                    }}
+                  >
                     {" "}
                     {detail.description}
                   </div>

@@ -49,7 +49,13 @@ function Content2() {
         }}
         className={classNames.content2Container}
       >
-        <div style={{ color: "rgb(105,120,231)", fontSize: 13 }}>
+        <div
+          style={{
+            color: "rgb(105,120,231)",
+            fontSize: 13,
+            fontFamily: "poppins",
+          }}
+        >
           FASTEST SOLUTION
         </div>
         <div
@@ -58,6 +64,7 @@ function Content2() {
             fontWeight: 600,
             textAlign: "center",
             padding: "0px 30px",
+            fontFamily: "volkhov",
           }}
         >
           4 easy steps to get your Solution
@@ -82,6 +89,7 @@ function Content2() {
                   gap: 10,
                   justifyContent: "center",
                   alignItems: "center",
+
                   // padding: 10,
                 }}
               >
@@ -128,7 +136,6 @@ function Content2() {
           style={{
             marginRight: "auto",
             marginLeft: "auto",
-            marginTop: 40,
           }}
           className={classNames.content2About}
         >
@@ -240,9 +247,10 @@ function Content2() {
               <div
                 className={classNames.content}
                 style={{
-                  fontSize: 13,
+                  fontSize: 12,
                   textAlign: "center",
                   color: "#000",
+                  fontFamily: "poppins",
                 }}
               >
                 A competent homoeopathic practitioner having a great skill in

@@ -3,14 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { diseases } from "@/utils/data";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
 import classNames from "../../styles/Home.module.css";
 import { useRef } from "react";
 
 function Content5() {
   const swiperRef = useRef(null);
   return (
-    <div style={{ height: "100%", width: "100%", marginTop: 60 }}>
+    <div style={{ height: "100%", width: "100%" }}>
       <div
         style={{
           display: "flex",
@@ -22,7 +21,7 @@ function Content5() {
       >
         <div style={{ display: "flex", flexDirection: "column", gap: 15 }}>
           <div
-            style={{ fontWeight: 600, color: "#000" }}
+            style={{ fontWeight: 600, color: "#000", fontFamily: "volkhov" }}
             className={classNames.content5Header}
           >
             Disease We Cured
@@ -68,7 +67,7 @@ function Content5() {
         </div>
       </div>
       <div
-        style={{ fontSize: 15, color: "gray" }}
+        style={{ fontSize: 15, color: "gray", fontFamily: "poppins" }}
         className={classNames.content5Desc}
       >
         From once incurable to triumphantly cured, we&apos;ve shattered the

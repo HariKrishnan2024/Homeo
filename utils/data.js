@@ -25,7 +25,7 @@ export const servicesData = {
       "Natrum Muriaticum is especially beneficial when dry crusts form on the scalp and dandruff is the primary reason for hair loss. It even helps when hair fall is triggered by menstrual problems or any skin disorder. This homoeopathic remedy is also effective in treating hormonal imbalance-related hair loss",
   },
   Piles: {
-    src: "/assets/imgs/skin-disease.jpg",
+    src: "/assets/imgs/piles.jpeg",
     description:
       "Nux Vomica: If somebody has constipation along with piles, Nux Vomica provides relief. It is helpful in treating piles caused due to a sedentary lifestyle such as overeating especially spicy food, drinking alcohol. Hamamelis: This remedy is used to control bleeding while passing stools.",
   },
@@ -35,27 +35,27 @@ export const servicesData = {
       "Sanguinaria Canadensis: This is an effective homeopathic medicine for migraine headaches, which is used for the treatment of migraine headaches felt on the right side of the head. The pain and throbbing are experienced on the right side, starting from the back of the head and settling over the right eye.",
   },
   Thyroid: {
-    src: "/assets/imgs/skin-disease.jpg",
+    src: "/assets/imgs/thyroid.png",
     description:
       "Homoeopaths recommend Iodum for treating thyroid problems. Similar features are shown by Bromium, which is the homoeopathic form of bromine. Lycopus: It is suggested for the treatment of hyperthyroidism and cysts.",
   },
   Acidity: {
-    src: "/assets/imgs/skin-disease.jpg",
+    src: "/assets/imgs/acidity.jpg",
     description:
       "Nux Vomica: This is a popular homoeopathic medication that is used to address various forms of stomach ache, including pains resulting from acidity",
   },
   "Gastric Trouble": {
-    src: "/assets/imgs/skin-disease.jpg",
+    src: "/assets/imgs/gastric.jpg",
     description:
       "Increase your fluid intake — drink plenty of water, fruit and vegetable juice. Drink two cups of green tea [without milk and sugar], 20 minutes before meal-time to improve digestion.",
   },
   "Blood Pressure": {
-    src: "/assets/imgs/skin-disease.jpg",
+    src: "/assets/imgs/bp.jpg",
     description:
       "It works by viewing your disease as a disturbance that affects your entire body and not just a specific body part. It not only cures blood pressure but is also the reason for high blood pressure so that it does not increase again when your mind or body faces stress.",
   },
   "Renal Calculi": {
-    src: "/assets/imgs/skin-disease.jpg",
+    src: "/assets/imgs/rc.jpg",
     description:
       "Cantharis: One of the best Homeopathic medicines for renal stones or renal calculi with smouldering in urine. In some cases, where there happens to be serious blazing on the urethra at the time of urination, Cantharis happens to be an incredible homoeopathic medicine",
   },

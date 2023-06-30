@@ -33,6 +33,7 @@ function ServiceDescSlider({ activeIndex }) {
             fontWeight: 600,
             textTransform: "uppercase",
             textAlign: "start",
+            fontFamily: "volkhov",
           }}
         >
           {`Homoeopathy Approach to treat ${
@@ -52,6 +53,7 @@ function ServiceDescSlider({ activeIndex }) {
             fontSize: 13,
             color: "#fff",
             textAlign: "start",
+            fontFamily: "poppins",
           }}
         >
           {Object.values(servicesData)[activeIndex]?.description}

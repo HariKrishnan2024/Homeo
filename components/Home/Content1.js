@@ -10,14 +10,20 @@ function Content1() {
       className={classNames.content1}
     >
       <div
-        style={{ minHeight: "100vh", display: "flex" }}
+        style={{
+          minHeight: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
         className={classNames.content1Container}
       >
         <div
           style={{
-            paddingTop: 70,
             display: "flex",
             flexDirection: "column",
+            justifyContent: "flex-start",
+            alignItems: "flex-start",
             gap: 15,
           }}
           className={classNames.content1Left}
@@ -27,11 +33,12 @@ function Content1() {
               textTransform: "uppercase",
               fontSize: 18,
               fontWeight: 500,
+              fontFamily: "Volkhov",
             }}
           >
             Cherish Health
           </div>
-          <div style={{ fontSize: 34, fontWeight: 500 }}>
+          <div style={{ fontSize: 34, fontWeight: 500, fontFamily: "Volkhov" }}>
             <span style={{ color: "#0360D9", textDecoration: "underline" }}>
               Homoeopathy
             </span>{" "}
@@ -40,7 +47,14 @@ function Content1() {
               Cure
             </span>
           </div>
-          <div style={{ width: "80%", fontSize: 15, color: "#0009" }}>
+          <div
+            style={{
+              width: "90%",
+              fontSize: 13,
+              color: "#000",
+              fontFamily: "Poppins",
+            }}
+          >
             Experience the Gentle Magic of homoeopathy: Empowering Your
             Body&apos;s Inner Healing! and Unleash the power of nature&apos;s
             remedies with homoeopathy, a gentle and holistic approach to

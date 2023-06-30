@@ -9,7 +9,7 @@ function Content3() {
 
   return (
     <section id="Treatments">
-      <div style={{ minHeight: "100vh" }}>
+      <div style={{ height: "100%", marginBottom: 70 }}>
         <div
           style={{
             display: "flex",
@@ -18,7 +18,14 @@ function Content3() {
             gap: 10,
           }}
         >
-          <div style={{ fontSize: 34, fontWeight: 600, color: "#0360D9" }}>
+          <div
+            style={{
+              fontSize: 34,
+              fontWeight: 600,
+              fontFamily: "volkhov",
+              color: "#0360D9",
+            }}
+          >
             Our Treatments
             <div
               style={{
