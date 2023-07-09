@@ -15,6 +15,11 @@ function Page({ children }) {
           name="description"
           content="homoeopathy for all We care for Your Cure"
         />
+        <link rel="canonical" href={`https://jmhomeoclinic.com`} />
+        <meta
+          name="google-site-verification"
+          content="6LdVJukXo6_RUlwRaicgMKx6opJlstXe8uPfCNHBWko"
+        />
       </Head>
       <ScrollToTop
         smooth
