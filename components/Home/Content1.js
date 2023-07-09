@@ -73,17 +73,20 @@ function Content1() {
                 height: "100%",
                 borderRadius: "172px 172px 0px 0px",
               }}
+              alt="home"
             />
             <div className={classNames.content1btm}>
               <img
                 src="/assets/imgs/homebtm.png"
                 className={classNames.content1SmallImg}
+                alt="homebtn"
               />
             </div>
             <div style={{}} className={classNames.content1Top}>
               <img
                 src="/assets/imgs/hometop.png"
                 className={classNames.content1SmallImg}
+                alt="hometop"
               />
             </div>
           </div>

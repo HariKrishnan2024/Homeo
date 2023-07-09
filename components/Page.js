@@ -2,7 +2,6 @@ import Head from "next/head";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import ScrollToTop from "react-scroll-to-top";
-import IoIosArrowUp from "react-icons/io";
 
 function Page({ children }) {
   return (

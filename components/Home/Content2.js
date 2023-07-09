@@ -148,6 +148,7 @@ function Content2() {
                   width: "100%",
                   borderRadius: 10,
                 }}
+                alt="jdk"
               />
             </div>
           </div>

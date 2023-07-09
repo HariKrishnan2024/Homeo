@@ -14,6 +14,7 @@ function ServiceDescSlider({ activeIndex }) {
       <img
         src={Object.values(servicesData)[activeIndex].src}
         style={{ height: "100%", width: "100%" }}
+        alt={activeIndex}
       />
       <div
         style={{
