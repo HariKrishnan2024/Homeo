@@ -4,13 +4,13 @@ const Sitemap = () => {};
 export const getServerSideProps = ({ res }) => {
   const baseUrl = {
     development: "http://localhost:3000",
-    production: "https://jmhomeoclinic.com/",
+    production: "https://www.jmhomeoclinic.com",
   }[process.env.NODE_ENV];
 
   const staticPages = fs
     .readdirSync("pages")
     .filter((staticPage) => {
-      return !["_app.js", "_document.js", "404.js", "sitemap.xml.js"].includes(
+      return !["_app.js", "_document.js", "sitemap.xml.js"].includes(
         staticPage
       );
     })
