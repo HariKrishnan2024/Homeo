@@ -17,7 +17,7 @@ function Page({ children }) {
         <link rel="canonical" href={`https://jmhomeoclinic.com`} />
         <meta
           name="google-site-verification"
-          content="6LdVJukXo6_RUlwRaicgMKx6opJlstXe8uPfCNHBWko"
+          content="GFUBBKJX-kfXc7eEpvtDFiqQOZmSA9Khw_vteMjKGyU"
         />
       </Head>
       <ScrollToTop
