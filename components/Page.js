@@ -7,13 +7,14 @@ function Page({ children }) {
   return (
     <div>
       <Head>
-        <title>JM Homeo Clinic</title>
+        <title>Jm Homoeo Clinic - Chennai</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="homoeopathy for all We care for Your Cure"
+          content="Carry out initial consultations with patients to learn their detailed case history. decide on the best use of homeopathic remedies to treat a range of conditions. monitor and evaluate patient progress.Our Clinic located in Bharathi Nagar Tharamani, Chennai - 600 113."
         />
+        <meta name="robots" content="noindex" />
         <link rel="canonical" href={`https://jmhomeoclinic.com`} />
         <meta
           name="google-site-verification"
