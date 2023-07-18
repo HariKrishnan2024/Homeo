@@ -14,7 +14,6 @@ function Page({ children }) {
           name="description"
           content="Carry out initial consultations with patients to learn their detailed case history. decide on the best use of homeopathic remedies to treat a range of conditions. monitor and evaluate patient progress.Our Clinic located in Bharathi Nagar Tharamani, Chennai - 600 113."
         />
-        <meta name="robots" content="noindex" />
         <link rel="canonical" href={`https://jmhomeoclinic.com`} />
         <meta
           name="google-site-verification"
